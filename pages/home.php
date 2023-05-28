@@ -83,6 +83,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-5 pt-5">
+                <div class="col-sm-12 text-center">
+                    <a href="?" class="btn btn-outline-secondary">Lihat Lainnya ...</a>
+                </div>
+            </div>
         </div>
     </section>
 <?php endforeach ?>
