@@ -29,6 +29,34 @@ $dataTools = [
     ]
 ];
 
+$dataClients = [
+    [
+        'img' => 'viracun.png',
+        'alt' => 'viracun',
+        'name' => 'Viracun'
+    ], [
+        'img' => 'drippipe.png',
+        'alt' => 'drippipe',
+        'name' => 'drippipe'
+    ], [
+        'img' => 'bankdki.jpg',
+        'alt' => 'bankdki',
+        'name' => 'bank dki'
+    ], [
+        'img' => 'cvalif.png',
+        'alt' => 'tailwind',
+        'name' => 'Alif print'
+    ], [
+        'img' => 'alterga.jpg',
+        'alt' => 'alterga',
+        'name' => 'alterga'
+    ], [
+        'img' => 'kkentertain.jpg',
+        'alt' => 'kk entertain',
+        'name' => 'kk entertain'
+    ]
+];
+
 $dataPortfolio = [
     [
         'img' => 'pos_cafe.png',

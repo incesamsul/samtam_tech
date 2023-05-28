@@ -83,14 +83,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 pt-5">
-                <div class="col-sm-12 text-center">
-                    <a href="?page=portfolio" class="btn btn-outline-secondary">Lihat Lainnya ...</a>
-                </div>
-            </div>
+
         </div>
     </section>
 <?php endforeach ?>
+<div class="row mt-5 pt-5">
+    <div class="col-sm-12 text-center">
+        <a href="?page=portfolio" class="btn btn-outline-secondary">Lihat Lainnya ...</a>
+    </div>
+</div>
 
 
 <section class="full-height secondary mt-5 pt-5">
@@ -122,6 +123,29 @@
             <div class="col-sm-6  text-center" <?= $aosAnimation ?>>
                 <h1 class="lh-base"><strong>Segera hubungi kami untuk informasi lebih lanjut tentang produk dan layanan.</strong></h1>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="full-height  mt-5 pt-5">
+    <div class="container mt-5" <?= $aosAnimation ?>>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4><strong>Klien kami</strong></h4>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6 offset-sm-3 mt-3">
+                <p><small>Beberapa dari banyak perusahaan yang menggunakan jasa kami.</small></p>
+            </div>
+        </div>
+        <div class="row">
+            <?php foreach ($dataClients as $row) : ?>
+                <div class="col-4 d-flex align-items-center flex-column mt-5">
+                    <img src="./assets/img/clients/<?= $row['img'] ?>" alt="<?= $row['alt'] ?>" width="100">
+                    <p class="mt-3"><small><?= $row['name'] ?></small></p>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
