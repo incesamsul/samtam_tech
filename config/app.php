@@ -1,4 +1,4 @@
 <?php
 
 
-define('baseurl', 'http://localhost/webs/samtam.tech/');
+define('baseurl', 'http://www.samtam.tech/');
